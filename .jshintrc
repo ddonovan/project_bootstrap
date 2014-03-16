@@ -1,0 +1,15 @@
+{
+  "smarttabs":true,
+  "asi": true, 
+  "strict": true,
+  "undef": true,
+  "unused": true,
+  "node": true,
+  "globals": {
+    "describe": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true
+  }
+}
+

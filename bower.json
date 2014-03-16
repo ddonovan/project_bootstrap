@@ -1,0 +1,19 @@
+{
+  "name": "Lauren",
+  "version": "0.0.5",
+  "description": "Ghost Theme using Bootstrap & Font-Awesome",
+  "authors": [
+    "David Donovan"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "font-awesome": "~4.0.3",
+    "fitvids": "~1.1.0"
+  }
+}

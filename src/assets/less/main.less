@@ -1,0 +1,223 @@
+html {
+    height: 100%;
+    max-height: 100%;
+    font-size: 62.5%;
+
+}
+
+body {
+    // height: 100%;
+    // max-height: 100%;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { 
+         font-size: 1.8rem;
+       
+    }
+
+
+   
+
+}
+
+// add top and bottom margins to paragraphs for better separation
+p {
+
+    margin: 2rem 0 4rem 0;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+
+    
+}
+
+h1 {
+    font-size: 1.5rem; 
+    line-height: 1.2em;
+    // letter-spacing: -2px;
+    // text-indent: -3px;
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { 
+        // font-size: 3.4rem;
+    }
+    
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) {
+
+        // font-size: 4.4rem;
+    }
+    
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: @screen-lg-min) { 
+    
+    }
+}
+
+// h2 {
+//     font-size: 4rem;
+//     line-height: 1.2em;
+//     letter-spacing: -1px;
+//     text-indent: -2px;
+// }
+
+// h3 {
+//     font-size: 3.5rem;
+// }
+
+// h4 {
+//     font-size: 3rem;
+// }
+
+// h5 {
+//     font-size: 2.5rem;
+// }
+
+// h6 {
+//     font-size: 2rem;
+// }
+
+// a {
+//     color: @link-color;
+//     transition: color ease 0.3s;
+// }
+
+//  a:hover {
+   
+//     color: @link-hover-color;
+//     text-decoration: none;
+// }
+
+// h1 a, h2 a, h3 a,
+// h4 a, h5 a, h6 a {
+//     color: #50585D;
+// }
+
+
+// p, ul, ol, dl {
+//     margin: 1.6em 0;
+// }
+
+
+// hr {
+//     display: block;
+//     height: 1px;
+//     border: 0;
+//     border-top: 1px solid #efefef;
+//     margin: 3.2em 0;
+//     padding: 0;
+// }
+
+
+
+// ::selection {
+//     color: #222;
+//     background: #D6EDFF;
+//     text-shadow: none;
+// }
+
+mark {
+    background-color: #ffc336;
+}
+
+pre {
+    box-sizing: border-box;
+    margin: 4rem 0;
+    border: 1px solid #E3EDF3;
+    padding: 1rem;
+    font-size: 0.85em;
+    white-space: pre;
+    overflow: auto;
+
+}
+
+pre code {
+    background: transparent;
+    border: none;
+    word-wrap: normal;
+    white-space: pre;
+}
+code {
+    font-size: 0.85em;
+    border: 1px solid #E3EDF3;
+}
+
+iframe, .fluid-width-video-wrapper {
+    display: block;
+    margin: 1.6em 0;
+}
+.fluid-width-video-wrapper iframe {
+    margin: 0;
+}
+
+.content{
+    width: 75%;
+    margin: 0  auto;
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: @screen-sm-min) { 
+     width: 70%;
+    }
+    
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: @screen-md-min) {
+    width: 60%;
+    }
+    
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: @screen-lg-min) { 
+    
+    }
+}
+
+/* Hides shit */
+.hidden {
+    text-indent: -9999px;
+    visibility: hidden;
+    display: none;
+}
+
+/* Creates a responsive wrapper that makes our content scale nicely */
+.inner {
+    position: relative;
+    width: 100%;
+    /*max-width: 700px;  removed so our post titles could span larger on bigger screens*/
+    margin: 0 auto;
+    @media (max-width: @screen-sm) {
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+
+    }
+    @media (max-width: @screen-md) {
+
+    }
+
+}
+
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Github */
+
+.gist table {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.gist .line-number {
+    min-width: 25px;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+

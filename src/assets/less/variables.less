@@ -1,0 +1,141 @@
+//  Custom variables or Override Boostrap variables here. 
+
+
+// My Colors
+// -------------------------
+
+
+@base-gray: #777777;
+
+
+
+@gray-darker:            lighten(#000, 13.5%); // #222
+@gray-dark:              lighten(#000, 20%);   // #333
+@gray:                   lighten(#000, 33.5%); // #555
+@gray-light:             lighten(#000, 60%);   // #999
+@gray-lighter:           lighten(#000, 93.5%); // #eee
+
+
+
+// This is the text that overlays the image header
+@header-text-color: @body-bg;
+@header-background-color: @body-bg;
+
+
+
+@post-title-color:  @gray;
+@post-meta-color: @gray-light;
+@post-separator-color:  @gray-darker;
+@post-share-color: @gray;
+
+@scrollup-color: #4f4d4d;
+
+@search-background-color: #3d3c3c;
+@search-link-color: #ced2d2;
+
+
+// used as colors for various accents 
+@brand-color: #549ef1;
+@brand-hover-color: darken(@brand-color, 15%);;
+@brand-border-color: lighten(@brand-color, 10%);
+
+
+@border-light-color: #EBF2F6;
+@border-dark-color: darken(@border-light-color, 10%);
+
+
+
+@footer-bg-color: #3d3c3c;
+@footer-text-color: #ced2d2 ;
+@footer-link-color: @footer-text-color ;
+@footer-link-hover-color: @brand-hover-color;
+
+
+
+
+/********************************************
+	BootStrap Variables that I have modified. 
+*******************************************/
+
+@brand-primary:         #428bca;
+@brand-success:         #5cb85c;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+@brand-info:            #5bc0de;
+
+
+@body-bg:               #fcfcfc;
+@text-color:            @gray-dark;
+
+// Hr border color
+@hr-border:                   @gray-lighter;
+
+
+// Links
+// -------------------------
+@link-color:            @text-color;
+@link-hover-color:      @brand-color;
+
+// Nav Bar
+// ------------------------
+@navbar-default-link-color:                #777;
+@navbar-default-link-hover-color:         @brand-color;
+@navbar-default-brand-color:               @navbar-default-link-color;
+@navbar-default-brand-hover-color:         @brand-color;
+
+
+// Block Quotes
+// ------------------------
+@blockquote-small-color:      @gray-light;
+@blockquote-border-color:     @gray-dark;
+
+// Code
+// ------------------------
+@code-color:                  #c7254e;
+@code-bg:                     #F7FAFB;
+//@code-bg:                     #f9f2f4;
+
+
+@pre-bg:                      @code-bg;
+@pre-color:                   @code-color;
+@pre-border-color:            #ccc;
+@pre-scrollable-max-height:   340px;
+
+
+// Typography
+// -------------------------
+// font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   // font-weight: 300;
+// }
+
+// Inconsolata, monospace, sans-serif;
+
+@font-family-dave:  "Open Sans","Lato", Georgia, Arial, sans-serif;
+
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-dave;
+
+@font-size-base:          16px;
+@font-size-large:         ceil(@font-size-base * 1.25); // ~18px
+@font-size-small:         ceil(@font-size-base * 0.85); // ~12px
+
+@font-size-h1:            floor(@font-size-base * 2.6); // ~36px
+@font-size-h2:            floor(@font-size-base * 2.15); // ~30px
+@font-size-h3:            ceil(@font-size-base * 1.7); // ~24px
+@font-size-h4:            ceil(@font-size-base * 1.25); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil(@font-size-base * 0.85); // ~12px
+
+@line-height-base:        1.428571429; // 20/14
+@line-height-computed:    floor(@font-size-base * @line-height-base); // ~20px
+
+@headings-font-family:    @font-family-base;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
+
+
+
+
